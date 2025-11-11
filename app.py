@@ -39,7 +39,7 @@ def encode_with_fallback(le, val, fallback_map=None):
 
 # Streamlit UI Configuration
 st.set_page_config(page_title="Insurance Claim Predictor", layout="centered")
-st.title(" Health Insurance Payment Prediction App By Fello")
+st.title(" Health Insurance Payment Prediction App ")
 st.write("Enter your health and lifestyle details below to estimate your expected insurance payment amount.")
 
 # Input Form
