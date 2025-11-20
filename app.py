@@ -56,7 +56,7 @@ with st.form("Input Form"):
         diabetic = st.selectbox("Diabetic", options=["Yes", "No"])
         smoker = st.selectbox("Smoker", options=["Yes", "No"])
 
-    submitted = st.form_submit_button("🔍 Predict Payment")
+    submitted = st.form_submit_button("Predict Payment")
 
 # When the user submits the form
 if submitted:
